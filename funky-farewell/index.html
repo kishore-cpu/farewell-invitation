@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FAREWELL '26 ✦ See You On The Other Side</title>
+  <meta name="description" content="Department Farewell 2026 — funky, vibrant, unforgettable." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@400;700;800&family=Caveat:wght@500;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- ══ CINEMATIC INTRO OVERLAY ══ -->
+  <div id="introOverlay">
+    <div class="intro-bg-zoom" id="introBgZoom"></div>
+    <div class="intro-inner">
+      <div class="intro-dept">BCA Department Farewell</div>
+      <div class="intro-year">2026</div>
+      <div class="intro-sub">Batch of 2023 – 2026</div>
+    </div>
+    <div class="intro-skip" id="introSkip">Skip ↓</div>
+  </div>
+
+  <!-- BLOB BACKGROUND -->
+  <div class="blob-bg">
+    <div class="blob b1"></div>
+    <div class="blob b2"></div>
+    <div class="blob b3"></div>
+    <div class="blob b4"></div>
+  </div>
+
+  <!-- CURSOR GLOW -->
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- MARQUEE TICKER -->
+  <div class="marquee-bar">
+    <div class="marquee-track">
+      <span>✦ FAREWELL 2026 ✦ DEPT FUNCTION ✦ APRIL 1 ✦ SEE YOU THERE ✦ BCA Department ✦ DR. R. VICTOR LAZARUS ✦ 1 PM
+        TO
+        3 PM ✦ FAREWELL 2026 ✦ DEPT FUNCTION ✦ APRIL 1 ✦ SEE YOU THERE ✦ BCA Department ✦ DR. R. VICTOR LAZARUS ✦ 1 PM
+        TO 3 PM ✦</span>
+    </div>
+  </div>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-logo">ECHOES '26<span class="logo-dot">.</span></div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#details">Details</a></li>
+      <li><a href="#countdown">Countdown</a></li>
+      <li><a href="#programme">Programme</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#memories">Memories</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+  <div class="nav-overlay" id="navOverlay"></div>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-floaters" id="heroFloaters"></div>
+
+    <div class="hero-content">
+      <div class="hero-badge">🎓 2023-2026</div>
+      <h1 class="hero-title">
+        <span class="ht-line" data-text="See You On">See You On</span>
+        <span class="ht-line gradient-text" data-text="The Other">The Other</span>
+        <span class="ht-line" data-text="Side ✦">Side ✦</span>
+      </h1>
+      <p class="hero-sub">A heartfelt department farewell for our graduating seniors &amp; beloved faculty.</p>
+      <div class="hero-pills">
+        <span class="pill pill-pink">📅 April 1, 2026</span>
+        <span class="pill pill-yellow">🕘 1 PM – 3 PM</span>
+        <span class="pill pill-cyan">📍 REV.V.G.Hall</span>
+      </div>
+      <div class="hero-cta">
+        <a href="#details" class="cta-btn cta-primary">Explore ↓</a>
+        <a href="#programme" class="cta-btn cta-ghost">Programme</a>
+      </div>
+    </div>
+
+    <div class="hero-scroll-hint">scroll ↓</div>
+  </section>
+
+  <!-- WAVE DIVIDER -->
+  <div class="wave-divider wave-1">
+    <svg viewBox="0 0 1440 80" preserveAspectRatio="none">
+      <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#fdf0ff" />
+    </svg>
+  </div>
+
+  <!-- DETAILS -->
+  <section id="details" class="section section-light">
+    <div class="section-inner">
+      <p class="s-label" data-reveal>The Invite</p>
+      <h2 class="s-title" data-reveal>Event <em>Details</em></h2>
+
+      <!-- CHIEF GUEST SPOTLIGHT -->
+      <div class="cg-spotlight" data-reveal>
+        <div class="cg-glow-ring">
+          <div class="cg-face">🏆</div>
+        </div>
+        <div class="cg-text">
+          <span class="cg-tag">Chief Guest</span>
+          <h3 class="cg-name">Dr. R. Victor Lazarus</h3>
+          <p class="cg-role">Principal, Our College</p>
+        </div>
+        <div class="cg-badge-float">★ Guest of Honour ★</div>
+      </div>
+
+      <!-- INFO CARDS -->
+      <div class="info-grid" data-reveal>
+        <div class="info-card ic-pink">
+          <div class="ic-icon">📅</div>
+          <div class="ic-body">
+            <span class="ic-label">Date</span>
+            <strong>April 1, 2026</strong>
+            <span>Wednesday</span>
+          </div>
+        </div>
+        <div class="info-card ic-yellow">
+          <div class="ic-icon">🕘</div>
+          <div class="ic-body">
+            <span class="ic-label">Time</span>
+            <strong>1:00 PM</strong>
+            <span>Ends at 4:00 PM</span>
+          </div>
+        </div>
+        <div class="info-card ic-cyan">
+          <div class="ic-icon">📍</div>
+          <div class="ic-body">
+            <span class="ic-label">Venue</span>
+            <strong>Rev.V.G. HALL</strong>
+            <span>Auditorium</span>
+          </div>
+        </div>
+        <div class="info-card ic-purple">
+          <div class="ic-icon">👥</div>
+          <div class="ic-body">
+            <span class="ic-label">For</span>
+            <strong>Our beloved</strong>
+            <span>Seniors</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WAVE DIVIDER 2 -->
+  <div class="wave-divider wave-2">
+    <svg viewBox="0 0 1440 80" preserveAspectRatio="none">
+      <path d="M0,40 C360,0 1080,80 1440,40 L1440,0 L0,0 Z" fill="#fdf0ff" />
+    </svg>
+  </div>
+
+  <!-- COUNTDOWN -->
+  <section id="countdown" class="section section-dark">
+    <div class="section-inner">
+      <p class="s-label" data-reveal>Tick tock ⏰</p>
+      <h2 class="s-title light" data-reveal>The Big Day Is <em>Coming</em></h2>
+      <div class="cd-grid" id="cdGrid" data-reveal>
+        <div class="cd-card">
+          <div class="cd-num" id="days">00</div>
+          <div class="cd-lbl">Days</div>
+        </div>
+        <div class="cd-sep">:</div>
+        <div class="cd-card">
+          <div class="cd-num" id="hours">00</div>
+          <div class="cd-lbl">Hours</div>
+        </div>
+        <div class="cd-sep">:</div>
+        <div class="cd-card">
+          <div class="cd-num" id="minutes">00</div>
+          <div class="cd-lbl">Mins</div>
+        </div>
+        <div class="cd-sep">:</div>
+        <div class="cd-card">
+          <div class="cd-num" id="seconds">00</div>
+          <div class="cd-lbl">Secs</div>
+        </div>
+      </div>
+      <p id="eventEndedMsg" class="cd-ended hidden">🎉 The day has arrived! Enjoy every moment.</p>
+    </div>
+  </section>
+
+  <!-- PROGRAMME -->
+  <section id="programme" class="section section-light">
+    <div class="section-inner">
+      <p class="s-label" data-reveal>What's Happening</p>
+      <h2 class="s-title" data-reveal>Programme <em>for the Day</em></h2>
+      <div class="prog-list" data-reveal>
+
+
+        <div class="prog-item">
+          <div class="prog-icon">🍽️</div>
+          <div class="prog-time">1:00 PM</div>
+          <div class="prog-info">
+            <h3>Lunch</h3>
+            <p>A shared meal — the last time we eat together as a batch in these halls.</p>
+          </div>
+        </div>
+
+
+        <div class="prog-item">
+          <div class="prog-icon">🙏</div>
+          <div class="prog-time">1:30 PM</div>
+          <div class="prog-info">
+            <h3>Opening Prayer</h3>
+            <p>We begin with an invocation — seeking blessings and setting a meaningful tone for the day.</p>
+          </div>
+        </div>
+
+        <div class="prog-item">
+          <div class="prog-icon">🎙️</div>
+          <div class="prog-time">1:45 PM</div>
+          <div class="prog-info">
+            <h3>Welcome Address</h3>
+            <p>Address by the Head of Department, followed by a special address by our Chief Guest, Dr. R. Victor
+              Lazarus.</p>
+          </div>
+        </div>
+
+        <div class="prog-item">
+          <div class="prog-icon">🏅</div>
+          <div class="prog-time">2:00 PM</div>
+          <div class="prog-info">
+            <h3>Formal Activities</h3>
+            <p>Felicitation of outgoing students, presentation of mementos, faculty addresses, and recognitions.</p>
+          </div>
+        </div>
+
+        <div class="prog-item">
+          <div class="prog-icon">💛</div>
+          <div class="prog-time">2:30 PM</div>
+          <div class="prog-info">
+            <h3>Memory Recollection Program</h3>
+            <p>Revisiting three years of shared moments — stories, photos, and heartfelt messages from students and
+              teachers.</p>
+          </div>
+        </div>
+
+        <div class="prog-item">
+          <div class="prog-icon">🤝</div>
+          <div class="prog-time">3:00 PM</div>
+          <div class="prog-info">
+            <h3>Farewell &amp; Closing</h3>
+            <p>A final group photograph, closing words, and fond goodbyes.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- MEMORIES -->
+  <section id="memories" class="section section-mem">
+    <div class="section-inner">
+      <p class="s-label" data-reveal>Three Years ✦</p>
+      <h2 class="s-title" data-reveal>Our <em>Journey</em></h2>
+      <div class="mem-grid" data-reveal>
+        <div class="mem-card mc-a">
+          <span class="mc-year">Year 01</span>
+          <h3>The Beginning</h3>
+          <p>First days, nervous smiles, unfamiliar labs — and a department that slowly started feeling like home.</p>
+          <div class="mc-deco">✦</div>
+        </div>
+        <div class="mem-card mc-b">
+          <span class="mc-year">Year 02</span>
+          <h3>Finding Our Footing</h3>
+          <p>Symposiums, reviews, all-nighters, and teachers who pushed us beyond what we thought possible.</p>
+          <div class="mc-deco">✦</div>
+        </div>
+        <div class="mem-card mc-c">
+          <span class="mc-year">Year 03</span>
+          <h3>The Golden Chapter</h3>
+          <p>Final projects, placements, and the quiet realisation that our time here was precious and fleeting.</p>
+          <div class="mc-deco">✦</div>
+        </div>
+      </div>
+
+      <div class="quote-box" data-reveal>
+        <div class="qb-stars">★ ★ ★</div>
+        <blockquote>"We didn't just study here — we grew here, together."</blockquote>
+        <cite>— Graduating Batch, 2026</cite>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ PHOTO GALLERY ══ -->
+  <section id="gallery" class="section section-dark">
+    <div class="section-inner">
+      <p class="s-label" data-reveal>📸 Moments</p>
+      <h2 class="s-title light" data-reveal>Our <em>Gallery</em></h2>
+      <!--<p class="gallery-hint" data-reveal></p>-->
+
+      <div class="gallery-grid" data-reveal>
+
+        <!-- LARGE FEATURE PHOTO -->
+        <div class="g-item g-large">
+          <div class="g-inner">
+            <img src="photos/photo1.jpeg" alt="Group Photo"
+              onerror="this.parentElement.classList.add('g-placeholder')" />
+            <div class="g-overlay"><span>📷 Group Photo</span></div>
+          </div>
+        </div>
+
+        <!-- SMALLER PHOTOS -->
+        <div class="g-item">
+          <div class="g-inner">
+            <img src="photos/photo2.jpg" alt="Moment 2" onerror="this.parentElement.classList.add('g-placeholder')" />
+            <div class="g-overlay"><span>📷 Moment</span></div>
+          </div>
+        </div>
+        <div class="g-item">
+          <div class="g-inner">
+            <img src="photos/photo3.jpg" alt="Moment 3" onerror="this.parentElement.classList.add('g-placeholder')" />
+            <div class="g-overlay"><span>📷 Moment</span></div>
+          </div>
+        </div>
+        <div class="g-item">
+          <div class="g-inner">
+            <img src="photos/photo4.jpg" alt="Moment 4" onerror="this.parentElement.classList.add('g-placeholder')" />
+            <div class="g-overlay"><span>📷 Moment</span></div>
+          </div>
+        </div>
+        <div class="g-item">
+          <div class="g-inner">
+            <img src="photos/photo5.jpg" alt="Moment 5" onerror="this.parentElement.classList.add('g-placeholder')" />
+            <div class="g-overlay"><span>📷 Moment</span></div>
+          </div>
+        </div>
+        <div class="g-item">
+          <div class="g-inner">
+            <img src="photos/photo6.jpg" alt="Moment 6" onerror="this.parentElement.classList.add('g-placeholder')" />
+            <div class="g-overlay"><span>📷 Moment</span></div>
+          </div>
+        </div>
+        <div class="g-item">
+          <div class="g-inner">
+            <img src="photos/photo7.jpg" alt="Moment 7" onerror="this.parentElement.classList.add('g-placeholder')" />
+            <div class="g-overlay"><span>📷 Moment</span></div>
+          </div>
+        </div>
+        <div class="g-item">
+          <div class="g-inner">
+            <img src="photos/photo8.jpg" alt="Moment 8" onerror="this.parentElement.classList.add('g-placeholder')" />
+            <div class="g-overlay"><span>📷 Moment</span></div>
+          </div>
+        </div>
+
+        <!-- SECOND LARGE PHOTO -->
+        <div class="g-item g-large g-large-right">
+          <div class="g-inner">
+            <img src="photos/photo9.jpeg" alt="Department Photo"
+              onerror="this.parentElement.classList.add('g-placeholder')" />
+            <div class="g-overlay"><span>📷 Dept Photo</span></div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- LIGHTBOX -->
+      <div id="lightbox" class="lightbox hidden">
+        <div class="lb-backdrop" id="lbBackdrop"></div>
+        <button class="lb-close" id="lbClose">✕</button>
+        <button class="lb-prev" id="lbPrev">‹</button>
+        <button class="lb-next" id="lbNext">›</button>
+        <img class="lb-img" id="lbImg" src="" alt="" />
+        <p class="lb-caption" id="lbCaption"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="footer-marquee">
+      <div class="fm-track">
+        <span>FAREWELL ✦ CLASS OF 2026 ✦ SEE YOU ON THE OTHER SIDE ✦ FAREWELL ✦ CLASS OF 2026 ✦ SEE YOU ON THE OTHER
+          SIDE ✦ FAREWELL ✦ CLASS OF 2026 ✦ SEE YOU ON THE OTHER SIDE ✦ </span>
+      </div>
+    </div>
+    <div class="footer-body">
+      <div class="footer-logo">ECHOES '26<span class="logo-dot">.</span></div>
+      <p>Crafted with 💛 By BCA</p>
+      <p class="footer-copy"></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
